@@ -1,0 +1,25 @@
+# Clinikk
+
+> Clinikk is a Bangalore, India-based primary healthcare provider offering membership-based access to unlimited doctor consultations, free prescribed medicines and lab tests, 24/7 teleconsultation, and optional group health insurance. Clinikk operates in-person Health Hubs across Bangalore alongside a consumer mobile app. It does not publish a public developer API.
+
+## About
+- Company: Clinikk (Clinikk Health Hub)
+- Industry: Healthcare / Primary Care + Health Insurance
+- Headquarters: Bengaluru, Karnataka, India
+- Model: Membership plans (from ~Rs 900/month) covering OPD visits, medicines, lab tests, specialist referrals, and cashless hospitalization; optional group health insurance in partnership with IndusInd General Insurance.
+- Backed by: 500 Global (portfolio company)
+
+## Website
+- Home: https://clinikk.com
+- For Companies (B2B): https://clinikk.com/for-companies
+- Blog: https://clinikk.com/blog-home/
+
+## Legal
+- Privacy Policy: https://clinikk.com/privacy-policy/
+- Terms and Conditions: https://clinikk.com/terms-and-conditions/
+
+## Apps
+- Google Play: https://play.google.com/store/apps/details?id=com.clinikk.clinikkV0
+
+## Notes
+- No public developer portal, OpenAPI specification, SDK, MCP server, or /.well-known discovery documents were found as of the enrichment date. This profile is maintained by the API Evangelist network for discovery.

@@ -1,7 +1,23 @@
 aid: clinikk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clinikk.png
 name: Clinikk
-description: Clinikk is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clinikk (Clinikk Health Hub) is a Bangalore, India-based primary healthcare provider
+  offering membership-based access to unlimited doctor consultations, free prescribed medicines
+  and lab tests, 24/7 teleconsultation, and optional group health insurance in partnership with
+  IndusInd General Insurance. Clinikk operates in-person Health Hubs across Bangalore alongside a
+  consumer mobile app, and was surfaced as a 500 Global portfolio company. No public developer API
+  surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/clinikk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Primary Care
+- Health Insurance
+- Telemedicine
+- Membership
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clinikk-domain-security.yml
 - type: Website
   url: https://clinikk.com
+- type: Blog
+  url: https://clinikk.com/blog-home/
+- type: PrivacyPolicy
+  url: https://clinikk.com/privacy-policy/
+- type: TermsOfService
+  url: https://clinikk.com/terms-and-conditions/
+- type: LLMsTxt
+  url: llms/clinikk-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
